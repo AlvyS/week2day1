@@ -3,7 +3,7 @@ const getHTML = require('./step5-modular');
 const toLowerCase = require('./print_lowercase')
 const toUpperCase = require('./print_uppercase')
 const reverse = require('./print_reverse')
-const "1337" = require('./print_1337')
+const leet = require('./print_1337')
 
 const options = {
   host: 'sytantris.github.io',
@@ -18,4 +18,4 @@ console.log(html);
 // getHTML(options, toLowerCase);
 // getHTML(options, toUpperCase);
 // getHTML(options, reverse);
-getHTML(options, "1337")
+getHTML(options, leet)
